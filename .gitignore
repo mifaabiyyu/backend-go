@@ -35,7 +35,7 @@ Thumbs.db
 *.bak
 
 # Make & Shell
-Makefile
+MakeFile
 *.sh
 *.bat
 
