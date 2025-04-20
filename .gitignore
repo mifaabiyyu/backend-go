@@ -1,1 +1,52 @@
-MakeFile
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go build
+/bin/
+/build/
+/dist/
+*.log
+
+# Go workspace and modules
+/go.sum
+/go.work
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Configuration and env
+.env
+.env.*
+.envrc
+*.local
+*.secret
+*.bak
+
+# Make & Shell
+Makefile
+*.sh
+*.bat
+
+# Redis / Cache / Temp
+/tmp
+*.pid
+*.cache
+
+# Testing
+coverage.out
+*.coverprofile
+
+# Node (if using)
+node_modules/
