@@ -5,7 +5,7 @@ Backend API ini dibangun menggunakan bahasa Go dengan pendekatan Clean Architect
 ## 🚀 Fitur Utama
 
 - ✅ **Authentication**: Login dengan JWT dan Basic Auth.
-- 🧠 **Role & Permission**: Otentikasi dan otorisasi berdasarkan role user.
+- 🧠 **Role & Permission**: Otentikasi dan otorisasi berdasarkan role user & permissions.
 - 🔐 **JWT Middleware**: Validasi token dengan claims custom.
 - ⚡ **Redis Caching**: Cache user data untuk mempercepat respon.
 - 🛡️ **Rate Limiter**: Mencegah abuse dari IP yang sama.
@@ -14,13 +14,15 @@ Backend API ini dibangun menggunakan bahasa Go dengan pendekatan Clean Architect
 
 ## 🪰 Teknologi
 
-| Tools  | Keterangan                     |
-| ------ | ------------------------------ |
-| Go     | Bahasa utama backend           |
-| Chi    | Lightweight router             |
-| sqlc   | Query builder untuk PostgreSQL |
-| Redis  | Cache untuk user session       |
-| JWT v5 | Token-based authentication     |
+| Tools        | Keterangan                     |
+| ------------ | ------------------------------ |
+| Go           | Bahasa utama backend           |
+| Chi          | Lightweight router             |
+| sqlc         | Query builder untuk PostgreSQL |
+| Redis        | Cache untuk user session       |
+| JWT v5       | Token-based authentication     |
+| Go Migration | Database migration tool        |
+| Go Air       | Auto Restart Server            |
 
 ## 🧽 Struktur Proyek
 
@@ -53,7 +55,7 @@ Backend API ini dibangun menggunakan bahasa Go dengan pendekatan Clean Architect
 ## 📦 Instalasi & Jalankan
 
 ```bash
-git clone https://github.com/namauser/backend-go-app.git
+git clone https://github.com/mifaabiyyu/backend-go.git
 cd backend-go-app
 
 go mod tidy
